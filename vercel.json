@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "buildCommand": "cd platform && npm run build",
+  "devCommand": "cd platform && npm run dev",
+  "installCommand": "npm install && cd platform && npm install",
+  "framework": "nextjs",
+  "outputDirectory": "platform/.next",
+  "functions": {
+    "platform/pages/api/**/*.js": {
+      "maxDuration": 300
+    }
+  }
+}

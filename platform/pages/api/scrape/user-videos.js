@@ -1,4 +1,4 @@
-const { TiktokApiFacade } = require('tiktok-hks');
+const { TiktokApiFacade } = require('../../../../index');
 
 /**
  * POST /api/scrape/user-videos - Get all videos from a TikTok user

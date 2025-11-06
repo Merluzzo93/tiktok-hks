@@ -1,4 +1,4 @@
-const { TiktokApiFacade } = require('tiktok-hks');
+const { TiktokApiFacade } = require('../../../../index');
 
 /**
  * POST /api/scrape/search-keyword - Search videos by keyword and region

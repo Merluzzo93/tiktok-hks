@@ -1,7 +1,7 @@
 const { query } = require('../../../lib/db');
 const { downloadAndProcessVideo } = require('../../../lib/downloader');
 const { transcribeAudio } = require('../../../lib/openai');
-const { TiktokApiFacade } = require('tiktok-hks');
+const { TiktokApiFacade } = require('../../../../index');
 
 /**
  * POST /api/scrape/save-videos - Bulk save videos to project

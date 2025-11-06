@@ -1,4 +1,4 @@
-const { TiktokApiFacade } = require('tiktok-hks');
+const { TiktokApiFacade } = require('../../../../index');
 
 /**
  * GET /api/scrape/regions - Get available regions
