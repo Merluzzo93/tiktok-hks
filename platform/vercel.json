@@ -8,9 +8,5 @@
     "pages/api/**/*.js": {
       "maxDuration": 300
     }
-  },
-  "env": {
-    "DATABASE_URL": "@database_url",
-    "OPENAI_API_KEY": "@openai_api_key"
   }
 }
